@@ -14,10 +14,10 @@ cd docs/.vuepress/dist
 
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy'
-  githubUrl=git@github.com:wanglantian/wanglantian.github.io.git
+  githubUrl=git@github.com:wanglantian/Blog.git
 else
   msg='来自github actions的自动部署'
-  githubUrl=https://wanglantian:${GITHUB_TOKEN}@github.com/wanglantian/wanglantian.github.io.git
+  githubUrl=https://wanglantian:${GITHUB_TOKEN}@github.com/wanglantian/Blog.git
   git config --global user.name "wanglantian"
   git config --global user.email "1448948107@qq.com"
 fi

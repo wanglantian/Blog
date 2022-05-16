@@ -65,3 +65,13 @@
 //   --codeBg: #282c34
 //   --codeColor: #fff
 //   codeThemeDark()
+
+    div[class*="language-"]{
+        max-height:500px;
+        overflow:auto
+    }
+
+    div[class*="language-"].line-numbers-mode .line-numbers-wrapper{
+        top:10px;
+        line-height:unset;
+    }
